@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Hotel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), Hotels.class);
+                Intent in = new Intent(getApplicationContext(), Business.class);
                 startActivity(in);
             }
         });

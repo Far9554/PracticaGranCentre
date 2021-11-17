@@ -8,10 +8,10 @@
         <item>Restaurante5</item>
     </string-array>
     <string-array name="Hotels">
-        <item>Restaurante1</item>
-        <item>Restaurante2</item>
-        <item>Restaurante3</item>
-        <item>Restaurante4</item>
-        <item>Restaurante5</item>
+        <item>5 Estrelles</item>
+        <item>4 Estrelles</item>
+        <item>3 Estrelles</item>
+        <item>2 Estrelles</item>
+        <item>1 Estrella</item>
     </string-array>
 </resources>
