@@ -11,18 +11,18 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView hotel=findViewById(R.id.btnHotels);
-    ImageView movie=findViewById(R.id.btnMovies);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        hotel.setOnClickListener(new View.OnClickListener() {
+        ImageView Hotel = findViewById(R.id.btnHotels);
+        Hotel.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intentHotel = new Intent(getApplicationContext(), Hotels.class);
-                startActivity(intentHotel);
+            public void onClick(View view) {
+                Intent in = new Intent(getApplicationContext(), Hotels.class);
+                startActivity(in);
             }
         });
     }
