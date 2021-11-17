@@ -18,7 +18,7 @@ public class Restaurantes extends AppCompatActivity {
         setContentView(R.layout.activity_restaurantes);
 
         opciones = (Spinner) findViewById(R.id.sp01);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Restaurants, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Opciones, android.R.layout.simple_spinner_item);
         opciones.setAdapter(adapter);
     }
 }

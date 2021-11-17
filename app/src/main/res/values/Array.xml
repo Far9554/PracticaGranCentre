@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="Restaurants">
-        <item>Restaurante1</item>
-        <item>Restaurante2</item>
-        <item>Restaurante3</item>
+    <string-array name="Opciones">
+        <item>Alfabetic Creixent</item>
+        <item>Alfabetic Decreixent</item>
+        <item>Tipus</item>
         <item>Restaurante4</item>
         <item>Restaurante5</item>
     </string-array>

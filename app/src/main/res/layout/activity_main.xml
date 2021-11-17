@@ -12,19 +12,19 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/Icon1"
+            android:id="@+id/btnRestaurantes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars"
+            android:src="@drawable/restaurants"
             android:layout_margin="25dp"/>
 
         <ImageView
-            android:id="@+id/Icon2"
+            android:id="@+id/btntransport"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars"
+            android:src="@drawable/transport"
             android:layout_margin="25dp"/>
 
     </LinearLayout>
@@ -47,21 +47,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars"
+            android:src="@drawable/movies"
             android:layout_margin="25dp"/>
 
 
     </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/btnHotels"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/hotels"
-        />
-
-
-
 
 
 </LinearLayout>
