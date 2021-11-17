@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             tools:srcCompat="@tools:sample/avatars"
-            android:layout_margin="25dp"/>
+            android:layout_margin="25dp" />
 
         <ImageView
             android:id="@+id/Icon4"
@@ -52,27 +52,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/Icon5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars"
-            android:layout_margin="25dp"/>
-
-        <ImageView
-            android:id="@+id/Icon6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars"
-            android:layout_margin="25dp"/>
-
-    </LinearLayout>
 
 
 
