@@ -25,6 +25,33 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+        ImageView Rest = findViewById(R.id.btnRestaurantes);
+        Rest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getApplicationContext(), Restaurantes.class);
+                startActivity(in);
+            }
+        });
+
+        ImageView Movie = findViewById(R.id.btnMovies);
+        Movie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getApplicationContext(), Movies.class);
+                startActivity(in);
+            }
+        });
+
+        ImageView Transp = findViewById(R.id.btntransport);
+        Transp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getApplicationContext(), Transport.class);
+                startActivity(in);
+            }
+        });
     }
 
 }
