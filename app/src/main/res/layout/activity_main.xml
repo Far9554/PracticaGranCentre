@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/movies"
-            android:layout_margin="25dp"/>
+            android:layout_margin="30dp"/>
 
 
     </LinearLayout>
