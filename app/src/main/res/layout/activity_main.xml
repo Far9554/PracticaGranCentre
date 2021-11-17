@@ -35,24 +35,30 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/Icon3"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars"
+            android:src="@drawable/hotels"
             android:layout_margin="25dp" />
 
         <ImageView
-            android:id="@+id/Icon4"
+            android:id="@+id/btnMovies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             tools:srcCompat="@tools:sample/avatars"
             android:layout_margin="25dp"/>
 
+
     </LinearLayout>
 
-
+    <ImageButton
+        android:id="@+id/btnHotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hotels"
+        />
 
 
 
