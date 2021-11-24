@@ -48,7 +48,7 @@ public class Business extends AppCompatActivity {
                         Integer[] imageP = {
                                 R.drawable.olgacam,
                                 R.drawable.ninapeines,
-                                R.drawable.business_1,
+                                R.drawable.antoni,
                         };
                         String[] adressP =getResources().getStringArray(R.array.adressP);
                         String[] urlP =getResources().getStringArray(R.array.urlP);

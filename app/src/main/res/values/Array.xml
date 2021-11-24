@@ -9,17 +9,17 @@
     <string-array name="negociP">
         <item>Peluquería Olga Camargo Gracia</item>
         <item>La Niña de los Peines</item>
-        <item>Li</item>
+        <item>Antoni Perruqueria D'Homes</item>
     </string-array>
     <string-array name="adressP">
         <item>Via Augusta, 62, 08006 Barcelona</item>
         <item> Carrer de Josep Torres, 6, 08012 Barcelona</item>
-        <item>Li</item>
+        <item>Carrer de l'Escorial, 19, 08024 Barcelona</item>
     </string-array>
     <string-array name="urlP">
         <item>https://www.olgacamargo.com/</item>
         <item>https://www.xn--laniadelospeines-9tb.net/</item>
-        <item>https://www.google.com/</item>
+        <item>http://graciadivina.com/antoni</item>
     </string-array>
     <string-array name="telP">
         <item>tel:139437823</item>
@@ -30,7 +30,7 @@
     <string-array name="ubiP">
         <item>https://www.google.com/maps/@41.5370185,2.1538417,10z</item>
         <item>https://www.google.com/maps/@41.4813452,2.1405579,12z</item>
-        <item>geo:41.5465472, 2.2675456</item>
+        <item>https://www.google.com/maps/@41.4044558,2.1483003,15z</item>
     </string-array>
     <!--Restaurantes-->
     <string-array name="BusinessR">
