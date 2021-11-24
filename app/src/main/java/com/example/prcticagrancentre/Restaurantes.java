@@ -11,10 +11,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Restaurantes extends AppCompatActivity {
 
     Spinner opciones;
+    ListView list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,26 @@ public class Restaurantes extends AppCompatActivity {
                     case"Italia":
                         break;
                     case"Japones":
+                        String[] negociR =getResources().getStringArray(R.array.negociP);
+                        Integer[] imageR = {
+                                R.drawable.iconatarasii,
+                                R.drawable.business_1,
+                                R.drawable.business_1,
+                        };
+                        String[] adressR =getResources().getStringArray(R.array.adressR);
+                        String[] urlR =getResources().getStringArray(R.array.urlR);
+                        String[] telR =getResources().getStringArray(R.array.telR);
+                        String[] ubiR =getResources().getStringArray(R.array.ubiP);
+
+                        CustomList adapter2 = new CustomList(Restaurantes.this, negociR, imageR, adressR,urlR,telR, ubiR);
+                        list=(ListView)findViewById(R.id.listR);
+                        list.setAdapter(adapter2);
+                        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                            @Override
+                            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociR[+ position], Toast.LENGTH_SHORT).show();
+                            }
+                        });
                         break;
                     case"Español":
                         break;
@@ -55,8 +77,6 @@ public class Restaurantes extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
-        }) {
-
-        }
+        });
     }
 }
