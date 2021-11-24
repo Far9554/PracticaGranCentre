@@ -34,8 +34,8 @@
         <item>tel:395782302</item>
     </string-array>
     <string-array name="ubiP">
-        <item>139437823</item>
-        <item>182758412</item>
-        <item>395782302</item>
+        <item>geo:41.5465472,2.2675456</item>
+        <item>geo:41.5465472,2.2675456</item>
+        <item>geo:41.5465472,2.2675456</item>
     </string-array>
 </resources>
