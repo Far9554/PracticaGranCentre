@@ -15,7 +15,7 @@
     <string-array name="adressLi">
         <item>Carrer de Balmes, 26, 08007 Barcelona</item>
         <item>Gran Via de les Corts Catalanes, 616, 08007 Barcelona</item>
-        <item>Carrer d'Elisabets, 6, 08001 Barcelona</item>
+        <item>Carrer de Elisabets, 6, 08001 Barcelona</item>
     </string-array>
     <string-array name="urlLi">
         <item>http://www.alibri.es/</item>

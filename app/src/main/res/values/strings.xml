@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Pràctica Gran centre</string>
+    <string name="duneT">Dune</string>
+    <string name="duneDesc">
+        "Duna, el hijo de una familia noble trata de vengarse de la muerte de su padre
+        \nal mismo tiempo que salva un planeta rico en especias que se le encomienda proteger.
+        \nNueva adaptación al cine de las novelas de Frank Herbert,
+        \nque ya fueron trasladadas a la gran pantalla por David Lynch en 1984."</string>
+    <string name="alertaRojaT">Alerta Roja</string>
+    <string name="alertaRojaDesc">
+        "Cuando la Interpol envía una «Alerta roja», significa que los departamentos de Policía de todo el mundo
+        \ndeben estar alerta para capturar a los criminales más buscados.
+        \nTodas las alarmas saltan cuando un temerario robo une al mejor agente del FBI (Johnson)
+        \ncon dos criminales rivales entre sí (Gadot i Reynolds).
+        \nUna coincidencia que hará que suceda lo impredecible."</string>
+    <string name="freeGuyT">Free Guy</string>
+    <string name="freeGuyDesc">
+        "Un trabajador de un banco descubre que en realidad es un jugador dentro de un videojuego."</string>
+    <string name="escuadronSuicidaT">El escuadron suicida</string>
+    <string name="escuadronSuicidaDesc">
+        "Un grupo de super villanos se encuentran encerrados en Belle Reve,
+        \nuna prisión de alta seguridad con la tasa de mortalidad más alta de Estados Unidos.
+        \nPara salir de allí harán cualquier cosa, incluso unirse al grupo Task Force X,
+        \ndedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Waller.
+        \nFuertemente armados son enviados a la isla Corto Maltese, una jungla repleta de enemigos."</string>
+
 </resources>
