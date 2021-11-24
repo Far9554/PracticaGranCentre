@@ -27,9 +27,9 @@
         <item>https://www.google.com/</item>
     </string-array>
     <string-array name="telP">
-        <item>139437823</item>
-        <item>182758412</item>
-        <item>395782302</item>
+        <item>tel:139437823</item>
+        <item>tel:182758412</item>
+        <item>tel:395782302</item>
     </string-array>
     <string-array name="ubiP">
         <item>139437823</item>
