@@ -19,7 +19,8 @@ public class CustomList extends ArrayAdapter<String>{
     private final Integer[] imageId;
     private final String[] url;
     private final String[] tel;
-    public CustomList(Activity context, String[] negoci, Integer[] imageId, String[] adress,String[] url,String[] tel ) {
+    private final String[] ubi;
+    public CustomList(Activity context, String[] negoci, Integer[] imageId, String[] adress,String[] url,String[] tel,String[] ubi ) {
         super(context, R.layout.list_single, negoci);
         this.context = context;
         this.negoci = negoci;
@@ -27,6 +28,7 @@ public class CustomList extends ArrayAdapter<String>{
         this.adress=adress;
         this.url=url;
         this.tel=tel;
+        this.ubi=ubi;
 
     }
     @Override
@@ -57,6 +59,13 @@ public class CustomList extends ArrayAdapter<String>{
             public void onClick(View v) {
                 Intent intentTel=new Intent(Intent.ACTION_VIEW, Uri.parse(tel[position]));
                 context.startActivity(intentTel);
+            }
+        });
+        btnubi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentUbi=new Intent(Intent.ACTION_VIEW, Uri.parse(ubi[position]));
+                context.startActivity(intentUbi);
             }
         });
 

@@ -4,8 +4,6 @@
         <item>Alfabetic Creixent</item>
         <item>Alfabetic Decreixent</item>
         <item>Tipus</item>
-        <item>Restaurante4</item>
-        <item>Restaurante5</item>
     </string-array>
     <!--Perruqueria-->
     <string-array name="Business">
@@ -15,17 +13,17 @@
     </string-array>
     <string-array name="negociP">
         <item>Peluquería Olga Camargo Gracia</item>
-        <item>ha</item>
+        <item>La Niña de los Peines</item>
         <item>Li</item>
     </string-array>
     <string-array name="adressP">
         <item>Via Augusta, 62, 08006 Barcelona</item>
-        <item>ha</item>
+        <item> Carrer de Josep Torres, 6, 08012 Barcelona</item>
         <item>Li</item>
     </string-array>
     <string-array name="urlP">
         <item>https://www.olgacamargo.com/</item>
-        <item>https://www.google.com/</item>
+        <item>https://www.xn--laniadelospeines-9tb.net/</item>
         <item>https://www.google.com/</item>
     </string-array>
     <string-array name="telP">
@@ -33,9 +31,10 @@
         <item>tel:182758412</item>
         <item>tel:395782302</item>
     </string-array>
+    <!--Intente con el geo:41.5370185,2.1538417 pero no me salia-->
     <string-array name="ubiP">
-        <item>geo:41.5465472,2.2675456</item>
-        <item>geo:41.5465472,2.2675456</item>
-        <item>geo:41.5465472,2.2675456</item>
+        <item>https://www.google.com/maps/@41.5370185,2.1538417,10z</item>
+        <item>https://www.google.com/maps/@41.4813452,2.1405579,12z</item>
+        <item>geo:41.5465472, 2.2675456</item>
     </string-array>
 </resources>

@@ -47,19 +47,14 @@ public class Business extends AppCompatActivity {
                         String[] negociP =getResources().getStringArray(R.array.negociP);
                         Integer[] imageP = {
                                 R.drawable.olgacam,
-                                R.drawable.business_1,
+                                R.drawable.ninapeines,
                                 R.drawable.business_1,
                         };
                         String[] adressP =getResources().getStringArray(R.array.adressP);
                         String[] urlP =getResources().getStringArray(R.array.urlP);
                         String[] telP =getResources().getStringArray(R.array.telP);
-
-                        String[] ubi = {
-                                "https://www.olgacamargo.com/",
-                                "https://www.olgacamargo.com/",
-                                "https://www.olgacamargo.com/",
-                        };
-                        CustomList adapter2 = new CustomList(Business.this, negociP, imageP, adressP,urlP,telP);
+                        String[] ubiP =getResources().getStringArray(R.array.ubiP);
+                        CustomList adapter2 = new CustomList(Business.this, negociP, imageP, adressP,urlP,telP,ubiP);
                         list=(ListView)findViewById(R.id.list);
                         list.setAdapter(adapter2);
                         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {

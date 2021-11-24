@@ -15,10 +15,6 @@ public class Restaurantes extends AppCompatActivity {
 
     Spinner opciones;
 
-    TextView telf1;
-    TextView web;
-    TextView Adrress;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +35,5 @@ public class Restaurantes extends AppCompatActivity {
         opciones = (Spinner) findViewById(R.id.sp01);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Opciones, android.R.layout.simple_spinner_item);
         opciones.setAdapter(adapter);
-
-        telf1 = findViewById()
     }
 }
