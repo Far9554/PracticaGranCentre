@@ -4,14 +4,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class Restaurantes extends AppCompatActivity {
 
     Spinner opciones;
+
+    TextView telf1;
+    TextView web;
+    TextView Adrress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +26,20 @@ public class Restaurantes extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setTitle("Restaurant");
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Restaurantes.super.onBackPressed();
+            }
+        });
 
         opciones = (Spinner) findViewById(R.id.sp01);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Opciones, android.R.layout.simple_spinner_item);
         opciones.setAdapter(adapter);
+
+        telf1 = findViewById()
     }
 }
