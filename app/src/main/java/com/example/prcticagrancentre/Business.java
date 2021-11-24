@@ -35,11 +35,46 @@ public class Business extends AppCompatActivity {
                 switch (selectedClass)
                 {
                     case "Perruqueries":
-
+                        String[] negociLi =getResources().getStringArray(R.array.negociFlo);
+                        Integer[] imageLi = {
+                                R.drawable.alibri,
+                                R.drawable.altair,
+                                R.drawable.raval,
+                        };
+                        String[] adressLi =getResources().getStringArray(R.array.adressFlo);
+                        String[] urlLi=getResources().getStringArray(R.array.urlFlo);
+                        String[] telLi=getResources().getStringArray(R.array.telFlo);
+                        String[] ubiLi =getResources().getStringArray(R.array.ubiFlo);
+                        CustomList adapter0 = new CustomList(Business.this, negociLi, imageLi, adressLi,urlLi,telLi,ubiLi);
+                        list=(ListView)findViewById(R.id.list);
+                        list.setAdapter(adapter0);
+                        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociLi[+ position], Toast.LENGTH_SHORT).show();
+                            }
+                        });
                         break;
                     case "Floreries":
-
-
+                        String[] negociFlo =getResources().getStringArray(R.array.negociFlo);
+                        Integer[] imageFlo = {
+                                R.drawable.herbs,
+                                R.drawable.ladyflor,
+                                R.drawable.lotus,
+                        };
+                        String[] adressFlo =getResources().getStringArray(R.array.adressFlo);
+                        String[] urlFlo =getResources().getStringArray(R.array.urlFlo);
+                        String[] telFlo =getResources().getStringArray(R.array.telFlo);
+                        String[] ubiFlo =getResources().getStringArray(R.array.ubiFlo);
+                        CustomList adapter1 = new CustomList(Business.this, negociFlo, imageFlo, adressFlo,urlFlo,telFlo,ubiFlo);
+                        list=(ListView)findViewById(R.id.list);
+                        list.setAdapter(adapter1);
+                        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociFlo[+ position], Toast.LENGTH_SHORT).show();
+                            }
+                        });
                         break;
 
                     case "Libreries":

@@ -1,20 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Perruqueria-->
+
     <string-array name="Business">
         <item>Perruqueries</item>
         <item>Floreries</item>
         <item>Libreries</item>
     </string-array>
+    <!--Llibreria-->
+    <string-array name="negociLi">
+        <item>ALIBRI Llibreria</item>
+        <item>Librería Altair</item>
+        <item>La Central del Raval</item>
+    </string-array>
+    <string-array name="adressLi">
+        <item>Carrer de Balmes, 26, 08007 Barcelona</item>
+        <item>Gran Via de les Corts Catalanes, 616, 08007 Barcelona</item>
+        <item>Carrer d'Elisabets, 6, 08001 Barcelona</item>
+    </string-array>
+    <string-array name="urlLi">
+        <item>http://www.alibri.es/</item>
+        <item>http://www.altair.es/</item>
+        <item>http://www.lacentral.com/</item>
+    </string-array>
+    <string-array name="telLi">
+        <item>tel:139437823</item>
+        <item>tel:182758412</item>
+        <item>tel:395782302</item>
+    </string-array>
+    <string-array name="ubiLi">
+        <item>https://www.google.com/maps/@41.3879049,2.0246598,11z</item>
+        <item>https://www.google.com/maps/@41.3876417,2.0263993,11z</item>
+        <item>https://www.google.com/maps/@41.3893773,2.15751,14z</item>
+    </string-array>
+    <!--Floreria-->
+    <string-array name="negociFlo">
+        <item>Floristeria Herbs Barcelona</item>
+        <item>Floristeria Ladyflor</item>
+        <item>Floristeria the lotus flower</item>
+    </string-array>
+    <string-array name="adressFlo">
+        <item>Carrer Major de Sarrià, 72, 08017 Barcelona</item>
+        <item>Carrer de Bailèn, 169, 08037 Barcelona</item>
+        <item>Carrer de la Indústria, 171, 08025 Barcelona</item>
+    </string-array>
+    <string-array name="urlFlo">
+        <item>https://www.herbs.es/</item>
+        <item>https://www.ladyflor.com/</item>
+        <item>https://floristeria-the-lotus-flower.negocio.site/</item>
+    </string-array>
+    <string-array name="telFlo">
+        <item>tel:139437823</item>
+        <item>tel:182758412</item>
+        <item>tel:395782302</item>
+    </string-array>
+    <string-array name="ubiFlo">
+        <item>https://www.google.com/maps/@41.3981874,2.1138388,15z</item>
+        <item>https://www.google.com/maps/@41.4005852,2.1632766,17z</item>
+        <item>https://www.google.com/maps/@41.4105704,2.1666852,15z</item>
+    </string-array>
+    <!--Perruqueria-->
     <string-array name="negociP">
         <item>Peluquería Olga Camargo Gracia</item>
         <item>La Niña de los Peines</item>
-        <item>Antoni Perruqueria D'Homes</item>
+        <item>Antoni Perruqueria Homes</item>
     </string-array>
     <string-array name="adressP">
         <item>Via Augusta, 62, 08006 Barcelona</item>
-        <item> Carrer de Josep Torres, 6, 08012 Barcelona</item>
-        <item>Carrer de l'Escorial, 19, 08024 Barcelona</item>
+        <item>Carrer de Josep Torres, 6, 08012 Barcelona</item>
+        <item>Carrer de Escorial, 19, 08024 Barcelona</item>
     </string-array>
     <string-array name="urlP">
         <item>https://www.olgacamargo.com/</item>
