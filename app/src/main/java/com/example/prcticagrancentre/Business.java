@@ -43,29 +43,29 @@ public class Business extends AppCompatActivity {
                         break;
 
                     case "Libreries":
-                        String[] negoci = {
-                                "Peluquería Olga Camargo Gracia",
-                                "Twitter",
-                                "Windows",
-                        } ;
-                        Integer[] imageId = {
+
+                        String[] negociP =getResources().getStringArray(R.array.negociP);
+                        Integer[] imageP = {
                                 R.drawable.olgacam,
                                 R.drawable.business_1,
                                 R.drawable.business_1,
                         };
-                        String[] adress = {
-                                "Via Augusta, 62, 08006 Barcelona",
-                                "Twitter",
-                                "Windows",
+                        String[] adressP =getResources().getStringArray(R.array.adressP);
+                        String[] urlP =getResources().getStringArray(R.array.urlP);
+                        String[] telP =getResources().getStringArray(R.array.telP);
+
+                        String[] ubi = {
+                                "https://www.olgacamargo.com/",
+                                "https://www.olgacamargo.com/",
+                                "https://www.olgacamargo.com/",
                         };
-                        CustomList adapter2 = new CustomList(Business.this, negoci, imageId, adress);
+                        CustomList adapter2 = new CustomList(Business.this, negociP, imageP, adressP,urlP,telP);
                         list=(ListView)findViewById(R.id.list);
                         list.setAdapter(adapter2);
                         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
                             @Override
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                                Toast.makeText(getApplicationContext(), "You Clicked at " +negoci[+ position], Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociP[+ position], Toast.LENGTH_SHORT).show();
                             }
                         });
                         break;

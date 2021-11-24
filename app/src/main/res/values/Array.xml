@@ -7,11 +7,35 @@
         <item>Restaurante4</item>
         <item>Restaurante5</item>
     </string-array>
+    <!--Perruqueria-->
     <string-array name="Business">
         <item>Perruqueries</item>
         <item>Floreries</item>
         <item>Libreries</item>
-        <item></item>
-        <item></item>
+    </string-array>
+    <string-array name="negociP">
+        <item>Peluquería Olga Camargo Gracia</item>
+        <item>ha</item>
+        <item>Li</item>
+    </string-array>
+    <string-array name="adressP">
+        <item>Via Augusta, 62, 08006 Barcelona</item>
+        <item>ha</item>
+        <item>Li</item>
+    </string-array>
+    <string-array name="urlP">
+        <item>https://www.olgacamargo.com/</item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
+    </string-array>
+    <string-array name="telP">
+        <item>139437823</item>
+        <item>182758412</item>
+        <item>395782302</item>
+    </string-array>
+    <string-array name="ubiP">
+        <item>139437823</item>
+        <item>182758412</item>
+        <item>395782302</item>
     </string-array>
 </resources>
