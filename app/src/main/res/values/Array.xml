@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="Opciones">
-        <item>Alfabetic Creixent</item>
-        <item>Alfabetic Decreixent</item>
-        <item>Tipus</item>
-    </string-array>
     <!--Perruqueria-->
     <string-array name="Business">
         <item>Perruqueries</item>
@@ -36,4 +31,36 @@
         <item>182758412</item>
         <item>395782302</item>
     </string-array>
+    <!--Restaurantes-->
+    <string-array name="BusinessR">
+        <item>Italia</item>
+        <item>Japones</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="negociR">
+        <item>Atalasii</item>
+        <item>ha</item>
+        <item>Li</item>
+    </string-array>
+    <string-array name="adressR">
+        <item>Carrer de Joan Prim, 4, 08402 Granollers, Barcelona</item>
+        <item>ha</item>
+        <item>Li</item>
+    </string-array>
+    <string-array name="urlR">
+        <item>http://www.atarasiisushi.cat</item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
+    </string-array>
+    <string-array name="telR">
+        <item>tel:689875685</item>
+        <item>tel:182758412</item>
+        <item>tel:395782302</item>
+    </string-array>
+    <string-array name="ubiR">
+        <item>139437823</item>
+        <item>182758412</item>
+        <item>395782302</item>
+    </string-array>
+
 </resources>
