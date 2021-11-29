@@ -41,9 +41,10 @@
 
     </LinearLayout>
 
-    <LinearLayout android:id="@+id/contenidor1"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.prcticagrancentre.FragmentRestaurant"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" />
-        <!--FRAGMENTS-->
-    </LinearLayout>
+        android:layout_height="133dp" />
+
+</LinearLayout>

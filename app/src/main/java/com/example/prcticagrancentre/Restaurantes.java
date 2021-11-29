@@ -21,10 +21,5 @@ public class Restaurantes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurantes);
 
-        FragmentManager fm = getSupportFragmentManager();
-        if (fm.findFragmentById(R.id.contenidor1) == null) {
-            Fragment fragment1 = new Fragment();
-            fm.beginTransaction().add(R.id.contenidor1, fragment1).commit();
-        }
     }
 }
