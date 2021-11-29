@@ -34,34 +34,26 @@ public class Business extends AppCompatActivity {
                 String selectedClass = parent.getItemAtPosition(position).toString();
                 switch (selectedClass)
                 {
-                    case "Perruqueries":
-                        String[] negociLi =getResources().getStringArray(R.array.negociFlo);
-                        Integer[] imageLi = {
-                                R.drawable.alibri,
-                                R.drawable.altair,
-                                R.drawable.raval,
-                        };
-                        String[] adressLi =getResources().getStringArray(R.array.adressFlo);
-                        String[] urlLi=getResources().getStringArray(R.array.urlFlo);
-                        String[] telLi=getResources().getStringArray(R.array.telFlo);
-                        String[] ubiLi =getResources().getStringArray(R.array.ubiFlo);
+                    case "Llibreries":
+                        String[] negociLi =getResources().getStringArray(R.array.negociLi);
+                        Integer[] imageLi = { R.drawable.alibri, R.drawable.altair, R.drawable.raval,};
+                        String[] adressLi =getResources().getStringArray(R.array.adressLi);
+                        String[] urlLi=getResources().getStringArray(R.array.urlLi);
+                        String[] telLi=getResources().getStringArray(R.array.telLi);
+                        String[] ubiLi =getResources().getStringArray(R.array.ubiLi);
                         CustomList adapter0 = new CustomList(Business.this, negociLi, imageLi, adressLi,urlLi,telLi,ubiLi);
                         list=(ListView)findViewById(R.id.list);
                         list.setAdapter(adapter0);
                         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                             @Override
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociLi[+ position], Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Has clicado " +negociLi[+ position], Toast.LENGTH_SHORT).show();
                             }
                         });
                         break;
                     case "Floreries":
                         String[] negociFlo =getResources().getStringArray(R.array.negociFlo);
-                        Integer[] imageFlo = {
-                                R.drawable.herbs,
-                                R.drawable.ladyflor,
-                                R.drawable.lotus,
-                        };
+                        Integer[] imageFlo = { R.drawable.herbs, R.drawable.ladyflor, R.drawable.lotus,};
                         String[] adressFlo =getResources().getStringArray(R.array.adressFlo);
                         String[] urlFlo =getResources().getStringArray(R.array.urlFlo);
                         String[] telFlo =getResources().getStringArray(R.array.telFlo);
@@ -72,19 +64,15 @@ public class Business extends AppCompatActivity {
                         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                             @Override
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociFlo[+ position], Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Has clicado " +negociFlo[+ position], Toast.LENGTH_SHORT).show();
                             }
                         });
                         break;
 
-                    case "Libreries":
+                    case "Perruqueries":
 
                         String[] negociP =getResources().getStringArray(R.array.negociP);
-                        Integer[] imageP = {
-                                R.drawable.olgacam,
-                                R.drawable.ninapeines,
-                                R.drawable.antoni,
-                        };
+                        Integer[] imageP = { R.drawable.olgacam, R.drawable.ninapeines, R.drawable.antoni,};
                         String[] adressP =getResources().getStringArray(R.array.adressP);
                         String[] urlP =getResources().getStringArray(R.array.urlP);
                         String[] telP =getResources().getStringArray(R.array.telP);
@@ -95,7 +83,7 @@ public class Business extends AppCompatActivity {
                         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                             @Override
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                                Toast.makeText(getApplicationContext(), "You Clicked at " +negociP[+ position], Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Has clicado " +negociP[+ position], Toast.LENGTH_SHORT).show();
                             }
                         });
                         break;

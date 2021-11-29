@@ -2,9 +2,9 @@
 <resources>
 
     <string-array name="Business">
-        <item>Perruqueries</item>
+        <item>Llibreries</item>
         <item>Floreries</item>
-        <item>Libreries</item>
+        <item>Perruqueries</item>
     </string-array>
     <!--Llibreria-->
     <string-array name="negociLi">
