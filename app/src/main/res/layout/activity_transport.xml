@@ -37,4 +37,64 @@
         </LinearLayout>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textNum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de places: COMPLETO"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/textTot2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero total places: 500"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textNum3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de places: COMPLETO"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/textTot3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero total places: 500"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>
