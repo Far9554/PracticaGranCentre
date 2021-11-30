@@ -1,102 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Transport"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <ListView
+        android:id="@+id/listParking"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="180dp"
-            android:layout_height="100dp"
-            tools:srcCompat="@drawable/parkinggranollers1" />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/textNum1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Numero de places: COMPLETO"
-                android:textColor="@color/black"/>
-            <TextView
-                android:id="@+id/textTot1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Numero total places: 500"
-                android:textColor="@color/black"/>
-
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="180dp"
-            android:layout_height="100dp"
-            tools:srcCompat="@drawable/ParkingGranollers2" />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/textNum2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Numero de places: 100"
-                android:textColor="@color/black"/>
-            <TextView
-                android:id="@+id/textTot2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Numero total places: 200"
-                android:textColor="@color/black"/>
-
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp">
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="180dp"
-            android:layout_height="100dp"
-            tools:srcCompat="@drawable/parkinggranollers3" />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/textNum3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Numero de places: 50"
-                android:textColor="@color/black"/>
-            <TextView
-                android:id="@+id/textTot3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Numero total places: 300"
-                android:textColor="@color/black"/>
-
-        </LinearLayout>
-    </LinearLayout>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

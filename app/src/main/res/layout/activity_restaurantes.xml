@@ -6,17 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Restaurantes">
-
-    <!--
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar" />
-    -->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="wrap_content"
@@ -35,16 +27,15 @@
         <Spinner
             android:id="@+id/sp01"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minHeight="32dp"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="com.example.prcticagrancentre.FragmentRestaurant"
+    <ListView
+        android:layout_marginTop="50dp"
+        android:id="@+id/listR"
         android:layout_width="match_parent"
-        android:layout_height="133dp" />
+        android:layout_height="wrap_content"
+        />
 
 </LinearLayout>

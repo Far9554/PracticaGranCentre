@@ -23,4 +23,20 @@
         \ndedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Waller.
         \nFuertemente armados son enviados a la isla Corto Maltese, una jungla repleta de enemigos."</item>
     </string-array>
+
+    <string-array name="ParkingNom">
+        <item>Dune</item>
+        <item>Alerta Roja</item>
+        <item>Free Guy</item>
+    </string-array>
+    <string-array name="ParkingNum">
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
+    <string-array name="ParkingTotal">
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
 </resources>
