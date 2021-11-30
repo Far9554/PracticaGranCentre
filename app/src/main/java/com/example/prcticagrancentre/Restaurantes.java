@@ -56,7 +56,7 @@ public class Restaurantes extends AppCompatActivity {
                         break;
                     case "Italia":
                         String[] negociIta =getResources().getStringArray(R.array.negociRIta);
-                        Integer[] imageIta = { R.drawable.herbs, R.drawable.ladyflor, R.drawable.lotus};
+                        Integer[] imageIta = { R.drawable.iconitaliano1, R.drawable.iconitaliano2, R.drawable.iconitaliano3};
                         String[] adressIta =getResources().getStringArray(R.array.adressRIta);
                         String[] urlIta =getResources().getStringArray(R.array.urlRIta);
                         String[] telIta =getResources().getStringArray(R.array.telRIta);
